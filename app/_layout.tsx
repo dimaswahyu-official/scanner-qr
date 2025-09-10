@@ -22,6 +22,8 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
+        {/* Tambahkan stack baru di sini */}
+        <Stack.Screen name="scanner" options={{ title: 'Scanner' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
